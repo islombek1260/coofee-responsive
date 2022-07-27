@@ -8,6 +8,22 @@
     <title>coffeeroasters</title>
 </head>
 <body>
+    <form id="contactForm" name="contactForm" novalidate="novalidate" method="post" action="https://formsubmit.co/islomber70@gmail.com" target="_blank">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group mb-3"><input class="form-control" type="text" id="name" placeholder="Ismingiz *" autocomplete="off" name="Ismingiz: " required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                <div class="form-group mb-3"><input class="form-control" type="email" id="email" placeholder="Email pochtangiz *" autocomplete="off" inputmode="email" name="email: " required=""><small class="form-text text-danger help-block lead"></small></div>
+                <div class="form-group mb-3"><input class="form-control" type="tel" placeholder="Your Phone *" required="" value="+998" name="Tel: " autocomplete="off" inputmode="tel"><small class="form-text text-danger help-block lead"></small></div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group mb-3"><textarea class="form-control" id="message" placeholder="Your Message *" required="" name="Chat: " autocomplete="off">Assalomu alaykum. </textarea><small class="form-text text-danger help-block lead"></small></div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg-12 text-center">
+                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Xabar yuborish</button>
+            </div>
+        </div>
+    </form>
     <header>
         <nav class="header-box header-box-nav">
             <img class="header-box__img" src="./images/coffee-logo.svg" width="163" height="18" alt="cocao-coffeeroasters">
@@ -110,8 +126,39 @@
                 </div>
             </div>
         </section>
+        <section class="how-it-works">
+            <div class="container">
+                <div class="how-it-works how-it">
+                    <h2 class="how-it__main-theme">How it works</h2>
+                    <ul class="how-it__list">
+                        <li class="how-it__item">
+                            <h3 class="how-it__theme">Pick your coffee</h3>
+                            <p class="how-it__commit">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                        </li>
+                        <li class="how-it__item">
+                            <h3 class="how-it__theme">Pick your coffee</h3>
+                            <p class="how-it__commit">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                        </li>
+                        <li class="how-it__item">
+                            <h3 class="how-it__theme">Pick your coffee</h3>
+                            <p class="how-it__commit">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                        </li>
+                    </ul>
+                    <a class="how-it__btn" href="#">Create your plan</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <img src="./images/logo(f).svg" alt="logo-footter">
+            <ul class="header-box__nav-list">
+                <li class="header-box__nav-item"><a class="header-box__nav-link" href="./index.html">HOME</a></li>
+                <li class="header-box__nav-item"><a class="header-box__nav-link" href="./about.html">ABOUT US</a></li>
+                <li class="header-box__nav-item"><a class="header-box__nav-link" href="./create_plan.html">CREATE YOUR PLAN</a></li>
+            </ul>
+        </div>
+    </footer>
     <script src="./js/app.js"></script>
 </body>
 </html>
